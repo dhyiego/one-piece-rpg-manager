@@ -3,9 +3,9 @@ package controllers
 import (
 	"encoding/json"
 	"net/http"
+	"op_rpg_crud/config"
+	"op_rpg_crud/models"
 	"op_rpg_crud/op_rpg_crud/models"
-	"rpg_manager/config"
-	"rpg_manager/models"
 
 	"github.com/gorilla/mux"
 )
