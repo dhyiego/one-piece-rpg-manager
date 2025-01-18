@@ -21,10 +21,10 @@ func SetupRoutes() *mux.Router {
 	router.HandleFunc("/attributes", controllers.GetAllAttributes).Methods("GET")
 	router.HandleFunc("/attributes/{id}", controllers.GetAttributeByID).Methods("GET")
 
-	// Devil Fruit routes
-	router.HandleFunc("/devil-fruits", controllers.CreateDevilFruit).Methods("POST")
-	router.HandleFunc("/devil-fruits", controllers.GetAllDevilFruits).Methods("GET")
-	router.HandleFunc("/devil-fruits/{id}", controllers.GetDevilFruitByID).Methods("GET")
+	// Fruit routes
+	router.HandleFunc("/fruits", controllers.CreateFruit).Methods("POST")
+	router.HandleFunc("/fruits", controllers.GetAllFruits).Methods("GET")
+	router.HandleFunc("/fruits/{id}", controllers.GetFruitByID).Methods("GET")
 
 	return router
 }
