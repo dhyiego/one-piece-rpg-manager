@@ -8,7 +8,7 @@ A **CRUD-based project** for managing RPG character sheets inspired by the One P
 
 - 🏴‍☠️ **Character Management**: Add, update, delete, and view RPG character sheets.
 - ⚔️ **Attribute Management**: Handle character attributes with auto-calculated fields (`Charisma` and `Defense`).
-- 🍎 **Devil Fruit Management**: Manage Devil Fruits with their descriptions and unique abilities.
+- 🍎 ** Fruit Management**: Manage Fruits with their descriptions and unique abilities.
 
 ---
 
